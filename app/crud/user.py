@@ -16,3 +16,6 @@ def authenticate_user(db: Session, username: str, password: str):
     if not user or not verify_password(password. user.hashed_password):
         return None
     return User
+
+def get_user_by_id(db:Session, user_id: int):
+    return db.query(User).filter(User.id == user_id).first()
