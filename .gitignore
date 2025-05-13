@@ -40,3 +40,6 @@ alembic/versions/
 dist/
 build/
 *.egg-info/
+
+*.ssh
+*.pub
