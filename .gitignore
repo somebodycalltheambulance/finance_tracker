@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.money/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Pydantic & MyPy stuff
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# dotenv
+.env
+.env.*
+
+# alembic
+alembic/versions/
+
+# compiled C files (cython, etc)
+*.so
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
